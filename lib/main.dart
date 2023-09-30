@@ -33,12 +33,12 @@ class MyApp extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         CircleAvatar(
-          radius: 120.0,
+          radius: 180.0,
           backgroundImage: AssetImage('assets/img.png'), // Replace with your image
         ),
         SizedBox(height: 16.0),
-        Text('John Doe', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
-        Text('Software Developer'),
+        Text('IQRAMUL HASAN SIFAT', style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold)),
+        Text("I am a Student of Daffodil International University.My Dept is Computer Science and Engineering,5th semester.I Am also student of Ostad"),
         SizedBox(height: 16.0),
         Expanded(
           child: GridView.builder(
@@ -66,17 +66,19 @@ class MyApp extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        CircleAvatar(
-          radius: 150.0,
-          backgroundImage: AssetImage('assets/img.png'), // Replace with your image
+        Center(
+          child: CircleAvatar(
+            radius: 150.0,
+            backgroundImage: AssetImage('assets/img.png'), // Replace with your image
+          ),
         ),
         SizedBox(width: 16.0),
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('John Doe', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
-              Text('Software Developer'),
+              Text('IQRAMUL HASAN SIFAT', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
+              Text("I am a Student of Daffodil International University.My Dept is Computer Science and Engineering,5th semester.I Am also student of Ostad"),
               SizedBox(height: 16.0),
               Expanded(
                 child: GridView.builder(
